@@ -23,7 +23,7 @@ def menu_utama():
     jendela_login.destroy()
     
     # Buat jendela baru untuk menu utama
-    global jendela_utama
+    global jendela_utama 
     jendela_utama = tk.Tk()
     jendela_utama.title("Aplikasi Kuis - Menu Utama")
     jendela_utama.configure(bg="#f0f0f0")  # Warna latar belakang
